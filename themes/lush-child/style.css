@@ -1,0 +1,75 @@
+/**
+ * Theme Name:  Lush Child - Music Band & Musician WordPress Theme
+ * Theme URI:   http://irontemplates.com/wp-demos/lush/
+ * Description: Lush a complete solution for everybody in the music industry. If you are a jazz master, punk rocker, soprano singer, piano player, band manager or even a webmaster, this theme is for you.
+ * Tags:        3d menu, music, blog, artist, musician, dj, club, responsive, html5, css3, design, irontemplates, ironband, lush 
+ *
+ * Author:      IronTemplates
+ * Author URI:  http://irontemplates.com
+ *
+ * Version:     1.0.0
+ * Template:    lush
+ * Text Domain: lush-child
+ *
+ * License:     GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ */
+ /*0800 048 0303
+ # 4517 6442 */
+
+ @import url("../lush/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.header_flags {
+	position: fixed;
+    right: 50px;
+    top: 10px;
+    z-index: 100;
+}
+
+.header_flags li {
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+}
+
+.ppqtrans_flag {
+	width: 40px !important;
+	height: 20px !important;
+}
+.ppqtrans_language_chooser li a{
+	background-size: 40px 20px !important;
+}
+.ppqtrans_flag_de {
+	background: url(images/german.png) !important;
+}
+
+.ppqtrans_flag_en {
+	background: url(images/english.png) !important;
+}
+
+.ppqtrans_flag_fr {
+	background: url(images/france.png) !important;
+}
+
+.ppqtrans_flag_es {
+	background: url(images/spain.png) !important;
+}
+
+@media (max-width: 768px) {
+	.header_flags {
+		top: 5px;
+		right: 35px;
+	}
+
+	.ppqtrans_flag {
+		width: 40px !important;
+		height: 20px !important;
+	}
+	.ppqtrans_language_chooser li a {
+		background-size: 40px 20px !important;
+	}
+}
